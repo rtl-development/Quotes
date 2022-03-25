@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/quote_widget"
+
+    android:minWidth="120dp"
+    android:minHeight="120dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+
+    android:minResizeWidth="120dp"
+    android:minResizeHeight="60dp"
+    android:maxResizeWidth="240dp"
+    android:maxResizeHeight="180dp"
+
+    android:previewImage="@drawable/ic_round_format_quote_24"
+    android:resizeMode="vertical|horizontal"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />
+
+    <!--
+    I want minWidth/minHeight to be 2 by 2. (1 cell is 60dp)
+    I want maxWidth/maxHeight to be 4 by 3.
+
+    this formula isn't true 100% :
+    widthIn(dp) = #ofCells * widthOfCell
+    -->
+
+    <!--
+    targetCellWidth and targetCellHeight ==> (Android 12),
+    minWidth and minHeight ==> (android 11 and bellow)
+    -->
+    <!-- https://developer.android.com/guide/topics/appwidgets#AppWidgetProviderInfo -->

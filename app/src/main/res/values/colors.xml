@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- theme1 ___________________-->
+    <color name="colorPrimary">#989EBF</color>
+    <color name="colorPrimaryDark">#707693</color>
+    <color name="colorAccent">#989EBF</color>
+    <color name="buttonsColor">#989EBF</color>
+    <color name="text_color">#000000</color>
+
+    <color name="activated_rv_item">#C8C8C8</color>
+
+    <!-- theme2 ___________________-->
+    <color name="colorPrimary2">#A2D3CF</color>
+    <color name="colorPrimaryDark2">#34A59C</color>
+    <color name="colorAccent2">#34A59C</color>
+    <color name="buttonsColor_2">#34A59C</color>
+    <color name="text_color2">#000000</color>
+
+    <!-- theme3 ___________________-->
+    <color name="colorPrimary3">#fbe9e7</color>
+    <color name="colorPrimaryDark3">#c8b7b5</color>
+    <color name="colorAccent3">#c8b7b5</color>
+    <color name="buttonsColor_3">#c8b7b5</color>
+    <color name="text_color3">#000000</color>
+
+    <!-- theme4 ___________________-->
+    <color name="colorPrimary4">#f0f4c3</color>
+    <color name="colorPrimaryDark4">#bdc192</color>
+    <color name="colorAccent4">#bdc192</color>
+    <color name="buttonsColor_4">#bdc192</color>
+    <color name="text_color4">#000000</color>
+
+    <!-- theme5 ___________________-->
+    <color name="colorPrimary5">#E6CED7</color>
+    <color name="colorPrimaryDark5">#C191A4</color>
+    <color name="colorAccent5">#C191A4</color>
+    <color name="buttonsColor_5">#C191A4</color>
+    <color name="text_color5">#000000</color>
+
+    <!-- theme6 ___________________-->
+    <color name="colorPrimary6">#ce93d8</color>
+    <color name="colorPrimaryDark6">#9c64a6</color>
+    <color name="colorAccent6">#ce93d8</color>
+    <color name="buttonsColor_6">#ce93d8</color>
+    <color name="text_color6">#000000</color>
+
+    <!-- ThemesActivity Style ___________________-->
+    <color name="themeColorPrimary">#009688</color>
+    <color name="themeColorPrimaryDark">#037A6F</color>
+    <color name="themeColorAccent">#009688</color>
+    <color name="themeColorBackground">#ffffff</color>
+
+    <!-- View Mot Activity Style ___________________-->
+    <color name="vm_ColorPrimary">#47B6AE</color>
+    <color name="vm_ColorPrimaryDark">#34A59C</color>
+    <color name="vm_ColorAccent">#47B6AE</color>
+    <color name="vm_text_color">#3b8686</color>
+
+    <color name="transparent_white">#8CFFFFFF</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+
+</resources>

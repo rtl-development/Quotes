@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SentencesFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <!-- <include
+        android:id="@+id/sentences_toolbar"
+        layout="@layout/app_toolbar" />-->
+
+    <TextView
+        android:id="@+id/no_sentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/horizontal_padding"
+        android:text="@string/no_sentences"
+        android:textSize="@dimen/title_size"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/add_def_sentences_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/ic_arrow_downward_black_24dp"
+        android:drawableLeft="@drawable/ic_arrow_downward_black_24dp"
+        android:text="@string/add_def_sentences"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sentences_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:background="#44FFFFFF" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/fab_add_sentence"
+        layout="@layout/app_fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+</RelativeLayout>

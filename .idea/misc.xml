@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.7928571428571428" />
+        <entry key="app/src/main/res/drawable/gradiant1.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/gradiant2.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/gradiant3.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/gradiant4.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/gradiant5.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/gradiant6.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/ic_dalmatian_spots.xml" value="0.7928571428571428" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.7928571428571428" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.7928571428571428" />
+        <entry key="app/src/main/res/drawable/ic_view_sentence_bouquet.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable/textviews_bg.xml" value="0.1295" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="1.0714285714285714" />
+        <entry key="app/src/main/res/layout/activity_themes.xml" value="0.14078947368421052" />
+        <entry key="app/src/main/res/layout/activity_view_motivation.xml" value="0.7035714285714286" />
+        <entry key="app/src/main/res/layout/fragment_choose_theme.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_preview_theme.xml" value="0.14078947368421052" />
+        <entry key="app/src/main/res/layout/quote_widget.xml" value="0.6035714285714285" />
+        <entry key="app/src/main/res/layout/sentences.xml" value="0.8321428571428572" />
+        <entry key="app/src/main/res/layout/view_sentence_fragment.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

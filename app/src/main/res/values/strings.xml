@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="themes">Themes</string>
+    <string name="settings">Settings</string>
+
+    <string name="add_sentence">Add Sentence</string>
+    <string name="edit_sentence">Edit Sentence</string>
+    <string name="edit_menu_item_title">Edit</string>
+    <string name="empty_sentence_msg">Please insert a title and content</string>
+    <string name="sentence_saved_msg">Sentence Saved</string>
+    <string name="sentence_updated_msg">Sentence has been updated</string>
+
+    <string name="chooseTheme">Choose your favorite theme</string>
+    <string name="apply_theme">Apply Theme</string>
+    <string name="no_sentences">No sentences added yet!</string>
+
+    <string name="random_motivation_title">Random Notifications</string>
+    <string name="random_motivation_summary">Turn on random quotes notifications</string>
+
+    <string name="about_title">About</string>
+    <string name="about_summary">This app is to show random motivation quotes during the day</string>
+
+    <string name="add_def_sentences">Get default sentences</string>
+
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="motivation_sentence_title">Title</string>
+    <string name="motivation_sentence_content">Write something...</string>
+
+    <string name="delete_sentence_item">Are you sure you want to delete the selected sentence(s)?</string>
+    <string name="cancel_delete">Cancel</string>
+    <string name="delete_alert_title">Delete the sentence</string>
+    <string name="delete_sentence_msg">Selected sentence(s) deleted successfully</string>
+
+    <string name="select_all">Select all</string>
+
+    <string name="notification_title">Motivation Quote</string>
+
+
+    <!-- motivation sentences -->
+    <string-array name="m_sentences">
+        <item>لمن فقد متعة الحياة، إن تغيير مزاجك لن يتحقق، ما لم يتحقق أولاً التغيير في سلوكياتك اليومية،
+وثانيا أن تعطي فرصة عامل الوقت والتدرج، هناك من يريد أن يتغير مزاجه وتصرفاته الاكتئابية لم تتغير "البقاء في السرير"،
+وهناك من يريد أن يتغير مزاجه "الآن" فإن لم يحدث يأس!.
+#اسامه_الجامع</item>
+        <item>
+والله إن الأيام الممتلئة نعمة مهما كانت ثقيلة، بالنسبة لكائن، لا شيء يرهق عقله وقلبه مثلما يفعل الفراغ الذي يدعوه للتفكير في صغائر الأمور وأتفهها. قالها غازي القصيبي -رحمه الله-: “العمل لا يقتل مهما كان شاقًا وقاسيًا، ولكن الفراغ يقتل حتى أنبل مافي الإنسان.”</item>
+        <item>إن ما يمنعنا عن التحسن رفضنا للمخاطرة، ورغبتنا بضمان النتائج، وانتظارنا للخوف أن يزول. لن يزول الخوف، ولن نضمن النتائج، ولن نتغير دون مخاطرة، اقدم وإذا سقطت انهض، اقدم ولو كنت خائفاً، فالخوف يزول مع الممارسة.</item>
+        <item>احذر أن تكون عالقاً في صورة قديمة عن نفسك. السنوات تمضي، التجارب كثيرة، شخصيتك تتطور شئت أم أبيت، إذا كنت تعاني من طفولة وضعتك في نمط محدد، فأنت لم تعد طفلاً، قد تكون تغيرت بالفعل لكنك لم تدرك تغيّرك بعد، أو لم تحاول أن تتصرف بطريقة مختلفة عن السابق تناسب مرحلتك.</item>
+        <item>رثاء الذات و كثرة التشكي و النواح لا يجلب ألا الهم ، تحرك للامام و اترك ما فات خلفك ، الندم و الحزن علي مافات يضر و لا ينفع ، ابدأ مع كل صباح بدايه جديدة.</item>
+        <item>حينَ تخرجُ من العاصِفة لن تعودَ الشَّخصَ نفسَهُ الذي دخلها ولهذا السَّببِ وحدَهُ كانتِ العاصِفة!</item>
+        <item>إن أصعب ما يمكنك عمله هو "البداية" ثم تهون الأمور، التكيف من أسرار النجاح، تشجع وابدأ وستتفاجئ من نفسك أنك انطلقت.</item>
+        <item>وهم السقوط أضر علينا من السقوط نفسه، لأنه لو سقطنا لقمنا، لكن أن نظل واهمين خوفا من السقوط فتلك قيود ذهنية تأسرنا دون أن ندري.</item>
+        <item>لست سلعة رخيصة، لست أقل من غيرك، لست هيّناً أبداً، بل أنت شيء عظيم ورائع، وجودك لا يشبه أي أحد، استمر فلك شأن.</item>
+        <item>تعتقد أنك لن تنجح ثم تنجح، تعتقد أنك لن تفعلها ثم تفعلها، تعتقد أنك لن تستطيع ثم تستطيع، قدراتك أكبر بكثير من اعتقادك عن نفسك، لا تقلل من شأن نفسك، فلديك الكثير.</item>
+        <item>مهما مَشَوا معكَ أو عنكَ كُنْ على يقين: أنه لا يصنعك إلا تلك الخطوات التي تمشيها وحدك !</item>
+        <item>و يمكن لعود كبريت واحد أن يحرق مليون شجرة لذلك لا تدع أمر سلبي واحد يؤثر على ملايين الإيجابيات في حياتك</item>
+        <item>إذا تسلطت عليك الأفكار السلبية فالحل ليس بمقاومتها ذهنياً لأن المزيد من التفكير هو وقودها الذي يغذيها بل الحل في الإنشغال عنها بأي نشاط حركي</item>
+        <item>"عليك أن تعلم علم اليقين بأن المرء يخوض صراعا بينه وبين نفسه كل يوم،مع ألف هم وألف حزن ومائة ضعف ليخرج أمامك بكل هذ الثبات "</item>
+        <item>أكثر الناس بؤسًا هو. “الإنسان المُؤَجَّل” الذي يقضي حياته كلها مؤجِّلا ذاته ونفسه، حتى يتآكل فلا يبقى منه شيء سوى زفرة متحسِّرة!</item>
+        <item>الطرق المفروشة بالورود لا تقود إلى المجد ..</item>
+        <item>عن أبي هريرة أن رسول الله صلى الله عليه وسلم قال بادروا بالأعمال سبعا هل تنتظرون إلا فقرا منسيا أو غنى مطغيا أو مرضا مفسدا أو هرما مفندا أو موتا مجهزا أو الدجال فشر غائب ينتظر أو الساعة فالساعة أدهى وأمر</item>
+        <item>الإبحار الدائم في المياه الهادئة لا يصنع قبطاناً عظيماً</item>
+        <item>إن ما يضرنا ليس نقص كفاءتنا، إن ما يضرنا شعورنا أن لدينا نقص في الكفاءة، فشعورنا شيء والواقع شيء آخر. ابدأ ولو كنت خائفاً، ستتحسن الأمور بمجرد أن تبدأ.</item>
+        <item>" دعني أخبرك بشيء مهم، لا تقض حياتك بانتظار أن تنتهي الفترة كذا والفترة كذا .. أن تنتهي فترة الدراسة .. أن تنتهي فترة التجنيد .. الخ .. لسوف تجد أن حياتك صارت مجموعة من الفترات يجب أن تنتهي ..  تكتشف أنك بلغت نهاية العمر دون أن تنعم بحياتك يوما واحدا</item>
+        <item>لكي تنجح ركّز، لا ينجح من بعثر نفسه في أكثر من مجال، اختر طريقاً وأنفق عليه وقتك، وقراءاتك، وضع فيه انجازاتك، العمر قصير فاستثمره بالتركيز على مسار محدد.</item>
+        <item>الحل الوحيد للمشاكل النفسية هو: لا تكن عاطلًا ولا تكن وحيدًا.</item>
+        <item>إن الحياة أوسع من مجرد محيطك الذي تعيش فيه، كلما فهمت أبواب العالم الواسعة كان نضجك أكبر، لذلك الذين يحتكون بشعوب الأرض، أكثر حلماً، وأوسع إدراكاً، من الذين لا يغادرون قريتهم.</item>
+        <item>إن ما يعيق روح المبادرة لإنسان، أن يضع أسوأ سيناريو وأكثره تشاؤماً فيمتنع، امتناعه ليس بسبب الواقع ولكن لافتراض صنعه في ذهنه.</item>
+        <item>حتى لو صدرت منك أعظم الأخطاء في الماضي، فأن لها ظروفاً ساهمت في حدوثها، لكن " لا تقيّم أخطاء الأمس بعقلية اليوم " كي لا ترهقك مشاعر الندم.</item>
+        <item>إذا كنت تنتظر أن تكون جاهزاً لتتقدم، فلن تتقدم، لكن تقدم على أية حال وستنفرج الأمور بالقليل الذي لديك، وبطريقة لم تتخيلها، احذر أن تنسحب.</item>
+        <item>راقب افكارك لأنها ستصنع افعالك
+وراقب افعالك لانها ستصنع عاداتك
+وراقب عاداتك لأنها ستصنع طباعك
+وراقب طباعك لأنها ستؤدي لمصيرك</item>
+
+    </string-array>
+
+    <string-array name="m_sentences_titles">
+        <item>تغير مزاجك</item>
+        <item>العمل والفراغ</item>
+        <item>رفض المخاطرة</item>
+        <item>صورتك الجديدة</item>
+        <item>بداية جديدة</item>
+        <item>العاصفة</item>
+        <item>انطلق</item>
+        <item>القيود الذهنية</item>
+        <item>أنت شيء عظيم ورائع</item>
+        <item>قدراتك أكبر مما تظن</item>
+        <item>خطواتك</item>
+        <item>عود كبريت</item>
+        <item>اﻷفكار السلبية</item>
+        <item>ثبات</item>
+        <item>اﻹنسان المؤجل</item>
+        <item>طريق المجد</item>
+        <item>حديث</item>
+        <item>القبطان العظيم</item>
+        <item>الشعور والواقع</item>
+        <item>فترات</item>
+        <item>ركز</item>
+        <item>حل المشاكل النفسية</item>
+        <item>الحياة أوسع من محيطك</item>
+        <item>مايعيق روح المبادة</item>
+        <item>اﻷمس واليوم</item>
+        <item>تقدم</item>
+        <item>مراقبة</item>
+    </string-array>
+
+
+    <string name="number_of_random_mot_title">Number of Notification</string>
+    <string name="number_of_random_mot_summary">
+        Choose how many time you wish to get random motivation notification
+    </string>
+    <string name="default_value_of_number_of_random_mot" translatable="false">6</string>
+
+    <string-array name="random_mot_entries">
+        <item>Every 3 hours</item>
+        <item>Every 4 hours</item>
+        <item>Every 5 hours</item>
+        <item>Every 6 hours</item>
+    </string-array>
+
+    <string-array name="random_mot_entry_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="add_default_mot_title">Default Quotes</string>
+    <string name="add_default_mot_summary">Add default quotes to the app</string>
+
+    <string name="pref_random_notification_key" translatable="false">prefRandomNotification</string>
+    <string name="pref_number_of_random_notification_key" translatable="false">prefNumberOfRandomNotification</string>
+    <string name="pref_add_def_quotes_key" translatable="false">prefAddDefaultQuotes</string>
+
+    <string name="add_widget">Add widget</string>
+    <string name="widget_title">Today Quote</string>
+
+</resources>

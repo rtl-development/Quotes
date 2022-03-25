@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="@string/pref_random_notification_key"
+        android:defaultValue="true"
+        android:title="@string/random_motivation_title"
+        android:summary="@string/random_motivation_summary" />
+
+    <ListPreference
+        android:key="@string/pref_number_of_random_notification_key"
+        android:title="@string/number_of_random_mot_title"
+        android:summary="@string/number_of_random_mot_summary"
+        android:entries="@array/random_mot_entries"
+        android:entryValues="@array/random_mot_entry_values"
+        android:defaultValue="@string/default_value_of_number_of_random_mot"
+        android:dependency="@string/pref_random_notification_key" />
+
+    <SwitchPreference
+        android:key="@string/pref_add_def_quotes_key"
+        android:defaultValue="false"
+        android:title="@string/add_default_mot_title"
+        android:summary="@string/add_default_mot_summary" />
+
+    <Preference
+        android:summary="@string/chooseTheme"
+        android:title="@string/themes">
+        <intent android:action="com.example.root.quotes.ThemesActivity" />
+    </Preference>
+
+    <Preference
+        android:selectable="false"
+        android:summary="@string/about_summary"
+        android:title="@string/about_title" />
+
+</PreferenceScreen>

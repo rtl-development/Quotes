@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/gradiant1</item>
+<!--
+        <item name="android:textColor">@color/text_color</item>
+-->
+        <!-- <item name="android:colorButtonNormal"></item> -->
+    </style>
+
+    <!-- theme2 -->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="android:windowBackground">@drawable/gradiant2</item>
+<!--
+        <item name="android:textColor">@color/text_color2</item>
+-->
+        <!-- <item name="android:colorButtonNormal"></item> -->
+    </style>
+
+    <!-- theme3 -->
+    <style name="AppTheme3" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent3</item>
+        <item name="android:windowBackground">@drawable/gradiant3</item>
+<!--
+        <item name="android:textColor">@color/text_color3</item>
+-->
+    </style>
+
+    <!-- theme4 -->
+    <style name="AppTheme4" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark4</item>
+        <item name="colorAccent">@color/colorAccent4</item>
+        <item name="android:windowBackground">@drawable/gradiant4</item>
+<!--
+        <item name="android:textColor">@color/text_color4</item>
+-->
+    </style>
+
+    <!-- theme5 -->
+    <style name="AppTheme5" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark5</item>
+        <item name="colorAccent">@color/colorAccent5</item>
+        <item name="android:windowBackground">@drawable/gradiant5</item>
+<!--
+        <item name="android:textColor">@color/text_color5</item>
+-->
+    </style>
+
+    <!-- theme6 -->
+    <style name="AppTheme6" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark6</item>
+        <item name="colorAccent">@color/colorAccent6</item>
+        <item name="android:windowBackground">@drawable/gradiant6</item>
+<!--
+        <item name="android:textColor">@color/text_color6</item>
+-->
+    </style>
+
+    <!-- theme of Themes Activity -->
+    <!--<style name="ThemesActivityStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/themeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/themeColorPrimaryDark</item>
+        <item name="colorAccent">@color/themeColorAccent</item>
+&lt;!&ndash;
+        <item name="android:textColor">@color/text_color</item>
+&ndash;&gt;
+    </style>-->
+
+</resources>

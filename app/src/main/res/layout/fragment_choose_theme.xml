@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:layout_gravity="center"
+    >
+
+        <TextView
+            android:id="@+id/choose_theme_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_theme_title_margin"
+            android:text="@string/chooseTheme"
+            android:textSize="@dimen/title_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/theme1_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:padding="@dimen/current_theme_padding"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:background="@drawable/gradiant1"
+            android:elevation="@dimen/elevation"
+
+            app:layout_constraintEnd_toStartOf="@id/theme2_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/choose_theme_textview" />
+
+
+        <ImageButton
+            android:id="@+id/theme2_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:padding="@dimen/current_theme_padding"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:background="@drawable/gradiant2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:elevation="@dimen/elevation"
+
+            app:layout_constraintStart_toEndOf="@id/theme1_btn"
+            app:layout_constraintTop_toBottomOf="@id/choose_theme_textview" />
+
+
+        <ImageButton
+            android:id="@+id/theme3_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:elevation="@dimen/elevation"
+
+            android:padding="@dimen/current_theme_padding"
+            android:background="@drawable/gradiant3"
+            app:layout_constraintEnd_toStartOf="@id/theme4_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/theme1_btn" />
+
+        <ImageButton
+            android:id="@+id/theme4_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:elevation="@dimen/elevation"
+
+            android:background="@drawable/gradiant4"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="@dimen/current_theme_padding"
+            app:layout_constraintStart_toEndOf="@id/theme3_btn"
+            app:layout_constraintTop_toBottomOf="@id/theme2_btn" />
+
+
+        <ImageButton
+            android:id="@+id/theme5_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:padding="@dimen/current_theme_padding"
+            android:elevation="@dimen/elevation"
+            android:background="@drawable/gradiant5"
+            app:layout_constraintEnd_toStartOf="@id/theme6_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/theme3_btn" />
+
+        <ImageButton
+            android:id="@+id/theme6_btn"
+            android:layout_width="@dimen/theme_button_width_height"
+            android:layout_height="@dimen/theme_button_width_height"
+            android:layout_marginTop="@dimen/top_theme_button_margin"
+            android:padding="@dimen/current_theme_padding"
+            android:elevation="@dimen/elevation"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/gradiant6"
+            app:layout_constraintStart_toEndOf="@id/theme5_btn"
+            app:layout_constraintTop_toBottomOf="@id/theme4_btn" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/hrzntl_divider_top_margin"
+        android:layout_marginHorizontal="@dimen/hrzntl_divider_top_margin"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose_theme_textview"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

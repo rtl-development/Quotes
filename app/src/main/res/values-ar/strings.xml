@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">اقتباسات</string>
+    <string name="themes">ثيمات</string>
+    <string name="settings">إعدادات</string>
+    <string name="add_sentence">إضافة اقتباس</string>
+    <string name="edit_sentence">تعديل اقتباس</string>
+    <string name="empty_sentence_msg">قم بإدخال عنوان ومحتوى</string>
+    <string name="sentence_saved_msg">تم الحفظ</string>
+    <string name="sentence_updated_msg">تم التعديل</string>
+    <string name="chooseTheme">اختر أحد الثيمات</string>
+    <string name="apply_theme">تطبيق</string>
+    <string name="no_sentences">لم يتم إضافة أي اقتباس</string>
+    <string name="about_title">حول التطبيق</string>
+    <string name="add_def_sentences">إضافة الاقتباسات التلقائية</string>
+    <string name="share">مشاركة</string>
+    <string name="search">بحث</string>
+    <string name="delete">حذف</string>
+    <string name="done">تم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">تم</string>
+    <string name="motivation_sentence_title">العنوان</string>
+    <string name="motivation_sentence_content">اكتب محتوى هنا ...</string>
+    <string name="delete_sentence_item">هل أنت متأكد من أنك تريد حذف الاقتباسات المحددة؟</string>
+    <string name="cancel_delete">إلغاء</string>
+    <string name="delete_alert_title">حذف الاقتباس</string>
+    <string name="delete_sentence_msg">تم حذف الاقتباسات المحددة</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="add_default_mot_title">الاقتباسات التلقائية</string>
+    <string name="add_default_mot_summary">إضافة اقتباسات تلقائية للتطبيق</string>
+    <string name="random_motivation_title">إشعارات عشوائية</string>
+    <string name="random_motivation_summary">تشغيل الاشعارات لاقتباسات مختارة عشوائيا</string>
+    <string name="notification_title">اقتباس تحفيزي</string>
+    <string name="number_of_random_mot_summary">اختر عدد مرات ظهور الاشعارات التحفيزية</string>
+    <string name="number_of_random_mot_title">عدد اﻹشعارات</string>
+    <string name="about_summary">هذا التطبيق يعرض عبارات تحفيزية عشوائية خلال اليوم</string>
+</resources>

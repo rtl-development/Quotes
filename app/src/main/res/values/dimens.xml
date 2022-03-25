@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="title_size">22sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="horizontal_padding">8dp</dimen>
+    <dimen name="view_padding">16dp</dimen>
+    <dimen name="top_bottom_margin">8dp</dimen>
+    <dimen name="top_theme_title_margin">50dp</dimen>
+    <dimen name="top_theme_button_margin">60dp</dimen>
+    <dimen name="bottom_apply_theme_button_margin">60dp</dimen>
+    <dimen name="horizontal_theme_button_margin">50dp</dimen>
+    <dimen name="theme_button_width_height">100dp</dimen>
+    <dimen name="elevation">7dp</dimen>
+    <dimen name="current_theme_padding">0dp</dimen>
+    <dimen name="quote_image_view">100dp</dimen>
+    <dimen name="horizontal_padding_sentence_view">50dp</dimen>
+    <dimen name="text_size_sentence_view">24sp</dimen>
+    <dimen name="hrzntl_divider_top_margin">20dp</dimen>
+
+    <dimen name="textviews_border_width">1dp</dimen>
+    <dimen name="shape_border_radius">10dp</dimen>
+
+    <dimen name="widget_padding">10dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+
+
+</resources>
