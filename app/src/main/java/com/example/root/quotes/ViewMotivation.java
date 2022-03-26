@@ -64,7 +64,7 @@ public class ViewMotivation extends AppCompatActivity {
             }
 
             // if true then it is intent from widget
-            isWidgetIntent = intent.hasExtra(QuoteWidget.WIDGET_ID);
+            //isWidgetIntent = intent.hasExtra(QuoteWidget.WIDGET_ID);
 
             // I will need it only when the intent != null
             sentenceViewModel = new ViewModelProvider(this).get(SentenceViewModel.class);
@@ -115,14 +115,14 @@ public class ViewMotivation extends AppCompatActivity {
 
             updateFragmentContents(sentence);
 
-           if(isWidgetIntent)
+           /*if(isWidgetIntent)
             {
                 Intent intent = new Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
                 intent.putExtra(SentencesFragment.SERIALIZABLE_SENTENCE, serializable);
                 intent.putExtra(QuoteWidget.WIDGET_ID,
                         getIntent().getIntExtra(QuoteWidget.WIDGET_ID, -1));
                 sendBroadcast(intent);
-            }
+            }*/
 
             Toast.makeText(this, R.string.sentence_updated_msg, Toast.LENGTH_SHORT).show();
         }

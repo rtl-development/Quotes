@@ -25,7 +25,7 @@
         <entry key="app/src/main/res/layout/activity_view_motivation.xml" value="0.7035714285714286" />
         <entry key="app/src/main/res/layout/fragment_choose_theme.xml" value="0.21" />
         <entry key="app/src/main/res/layout/fragment_preview_theme.xml" value="0.14078947368421052" />
-        <entry key="app/src/main/res/layout/quote_widget.xml" value="0.6035714285714285" />
+        <entry key="app/src/main/res/layout/quote_widget.xml" value="0.1" />
         <entry key="app/src/main/res/layout/sentences.xml" value="0.8321428571428572" />
         <entry key="app/src/main/res/layout/view_sentence_fragment.xml" value="0.16" />
       </map>

@@ -14,7 +14,7 @@ import com.example.root.quotes.data_model.Sentence;
 public class QuoteWidget extends AppWidgetProvider
 {
     protected static final String WIDGET_ID = "WIDGET_ID";
-    private Sentence sentence = null;
+    private Sentence sentence; // = null;
     //must add listener be to notified when sentences goes empty .. to show "empty msg"
 
     /*
@@ -63,7 +63,7 @@ public class QuoteWidget extends AppWidgetProvider
             intent.putExtra(WIDGET_ID, appWidgetId);
 
             PendingIntent pendingIntent = PendingIntent.getActivity(context,
-                    appWidgetId, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                    appWidgetId, intent, PendingIntent.FLAG_IMMUTABLE);
 
             remoteViews.setOnClickPendingIntent(R.id.widget_container, pendingIntent);
             appWidgetManager.updateAppWidget(appWidgetId, remoteViews);
@@ -72,17 +72,12 @@ public class QuoteWidget extends AppWidgetProvider
 
     private Sentence getWidgetSentence(Context context)
     {
-        if(sentence == null)
-        {
             RandomQuote randomQuote = new RandomQuote(context);
             sentence = randomQuote.getRandomSentence(); //it will be null when there are no sentences
             return sentence;
-        }
-
-        return sentence;
     }
 
-    @Override
+    /*@Override
     public void onReceive(Context context, Intent intent)
     {
         if(intent.getAction().equals("android.appwidget.action.APPWIDGET_UPDATE"))
@@ -103,5 +98,5 @@ public class QuoteWidget extends AppWidgetProvider
             }
         }
         super.onReceive(context, intent);
-    }
+    }*/
 }

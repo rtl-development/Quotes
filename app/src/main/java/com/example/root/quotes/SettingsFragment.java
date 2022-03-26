@@ -108,7 +108,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
                 , ALARM_INTENT_REQUEST_CODE, PendingIntent.FLAG_IMMUTABLE);
 
         alarmManager.createAlarmManager(AlarmManager.ELAPSED_REALTIME_WAKEUP
-                , SystemClock.elapsedRealtime()+AlarmManager.INTERVAL_FIFTEEN_MINUTES
+                , 60000
                 , repeat*AlarmManager.INTERVAL_HOUR
                 , pendingIntent);
     }
