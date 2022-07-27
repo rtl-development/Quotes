@@ -24,7 +24,6 @@
 /app/src/main/java/com/example/root/quotes/RandomQuote.java
 /app/src/main/java/com/example/root/quotes/SentenceAdapter.java
 /app/src/main/java/com/example/root/quotes/SentenceRepository.java
-/app/src/main/java/com/example/root/quotes/SentenceViewModel.java
 /app/src/main/java/com/example/root/quotes/SentencesFragment.java
 /app/src/main/java/com/example/root/quotes/SerializableSentence.java
 /app/src/main/java/com/example/root/quotes/SettingSharedPreferences.java
